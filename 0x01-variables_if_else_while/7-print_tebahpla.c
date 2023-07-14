@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - prints single digit in base 10
+ * main - prints the alphabets in reverse
  * Return: 0 (Success)
  */
 int main(void)
 {
-int num;
-for (num = 0; num < 10; num++)
-putchar((num % 10) + '0');
+char le;
+for (le = 'z'; le >= 'a'; le--)
+putchar(le);
 putchar('\n');
 return (0);
 }
