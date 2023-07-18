@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>"
 /**
  * main - Entry point
- * Description: prints the first 50 Fibonacci numbers
- *              starting with 1 and 2 folled by a new line
+ * Description: prints the first 50 Fibonacci numbers, starting with 1 and 2,
+ *              separated by a comma followed by a space.
  * Return: 0 (Success)
  */
 int main(void)
@@ -18,7 +19,7 @@ fib2 = sum;
 if (count == 49)
 printf("\n");
 else
-printf(",");
+printf(", ");
 }
 return (0);
 }
